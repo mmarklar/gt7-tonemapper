@@ -1,0 +1,26 @@
+{
+  "name": "gt7-tonemapper",
+  "version": "0.1.0",
+  "description": "Gran Turismo 7 tone mapping pass for three.js",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "three": ">=0.160.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "three",
+    "three.js",
+    "tone-mapping",
+    "hdr",
+    "gran-turismo"
+  ],
+  "license": "MIT"
+}
